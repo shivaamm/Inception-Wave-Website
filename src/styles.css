@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family:  Montserrat, Helvetica, sans-serif ;
+}
+
+/*temp-classes*/
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.btn-main{
+    color: #fff;
+    background-color: #1187D1;
+    border-color: #1187D1;
+}
+
+.about .owl-carousel.owl-drag .owl-item{
+    width: 315px!important;
+    max-height: 250px;
+}
+

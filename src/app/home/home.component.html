@@ -1,0 +1,330 @@
+<div class="hero" style="background-image: url('assets/img/background-hero.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="d-flex flex-column align-items-center h-100 justify-content-center">
+            <div class="hero-logo">
+                <img src="assets/img/logo.png" alt="">
+            </div>
+            <div class="hero-title">
+                <span>Inception Wave</span>
+            </div>
+            <div class="hero-subtitle">
+                <span>Ameliorating Work Culture</span>
+            </div>
+            <div class="hero-icons">
+                <ul class="d-flex list-unstyled m-0">
+                    <li><a href=""><i class="fab pr-3 fa-lg fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab pr-3 fa-lg fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab pr-3 fa-lg fa-linkedin-in"></i></a></li>
+                    <li><a href=""><i class="fab fa-lg fa-medium-m"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about mt-4">
+    <div class="about-title">About Us</div>
+    <div class="about-container container">
+        <span class="text-center">
+            Inception Wave is an Indian software company, currently working on 
+            developing a social media platform to bring together like minded individuals and help 
+            them improve their productivity by collaborating and achieving common goals and milestones. 
+            Inception Wave was founded in December ’18 and got incorporated in February ’19. Currently, 10 
+            exceptionally motivated individuals are working day and night to bring the company’s vision to reality.
+        </span>
+    </div>
+    <div class="car mt-3">
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide>
+                <div class="gallery-card">
+                    <img src="assets/img/1.jpeg">
+                </div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="gallery-card">
+                    <img src="assets/img/2.jpeg">
+                </div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="gallery-card">
+                    <img src="assets/img/3.jpeg">
+                </div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="gallery-card">
+                    <img src="assets/img/4.jpeg">
+                </div>
+            </ng-template>  
+            <ng-template carouselSlide>
+                <div class="gallery-card">
+                    <img src="assets/img/5.jpeg">
+                </div>
+            </ng-template>
+        </owl-carousel-o>
+    </div>
+</div>
+<div class="what-we-do" style="background-image: url('assets/img/ba2.jpg');">
+    <!-- <div class="overlay"></div> -->
+    <div class="wwd-title">What We Do?</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center"style="flex-direction: column;">
+                <ng-lottie [options]="weboptions" width="300px" height="400px" (animationCreated)="animationCreated($event)"></ng-lottie>
+                <h3 class="text-center">Web Development</h3>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center"style="flex-direction: column;">
+                <ng-lottie [options]="appoptions" width="300px" height="400px" (animationCreated)="animationCreated($event)"></ng-lottie>
+                <h3 class="text-center">Application Development</h3>
+              </div>
+              <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center"style="flex-direction: column;">
+                <ng-lottie [options]="marketoptions" width="300px" height="400px" (animationCreated)="animationCreated($event)"></ng-lottie>
+                <h3 class="text-center">Marketing & Buisness Solutions</h3>
+              </div>
+        </div>
+    </div>
+</div>
+<div class="project">
+    <div class="project-title">Our Projects</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-10 col-lg-6">
+                        <div class="project-card">
+                            <a class="" data-toggle="modal" data-target="#exampleModal">
+                                <img src="assets/img/grapido.png" alt="">
+                                <div class="projects-title">Grapido</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-10 col-lg-6">
+                        <div class="project-card">
+                            <img src="assets/img/SRMpedia.png" alt="">
+                            <div class="projects-title">SRMpedia</div>
+                        </div>
+                    </div>
+                    <div class="col-10 col-lg-6">
+                        <div class="project-card">
+                            <img src="assets/img/grapido.png" alt="">
+                            <div class="projects-title">SwiftCare</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 d-lg-flex justify-content-center align-items-center d-none">
+                <img src="assets/img/swob.svg" class="w-100" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="student-chapters" style="background-image: url('assets/img/ba2.jpg');">
+    <div class="sc-title">Student Chapters</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="sc-img d-flex justify-content-center"><img src="assets/img/sc.png" alt="srm chapter"></div>
+                <div class="sc-imgtitle">SRM Chapter</div>
+            </div>
+            <div class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="sc-img d-flex justify-content-center"><img src="assets/img/sc.png" alt="msit chapter"></div>
+                <div class="sc-imgtitle">MSIT Chapter</div>
+            </div>
+            <div class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+                <div class="sc-img d-flex justify-content-center"><img src="assets/img/sc.png" alt="drc chapter"></div>
+                <div class="sc-imgtitle">DRC Chapter</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mentors">
+    <div class="mentors-title">Mentors</div>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="mentor-card">
+                <div class="card-img mx-auto">
+                    <img src="assets/img/ritesh-bhat.jpeg" alt="">
+                </div>
+                <div class="card-name">Ritesh Bhat</div>
+                <div class="card-icons">
+                    <a href="" class="ig"><img src="assets/img/instagram.svg" alt=""></a>
+                    <a href="" class="fb"><img src="assets/img/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="mentor-card">
+                <div class="card-img mx-auto">
+                    <img src="assets/img/g-surender.jpeg" alt="">
+                </div>
+                <div class="card-name">G Surendra Thina</div>
+                <div class="card-icons">
+                    <a href="" class="ig"><img src="assets/img/instagram.svg" alt=""></a>
+                    <a href="" class="fb"><img src="assets/img/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="mentor-card">
+                <div class="card-img mx-auto">
+                    <img src="assets/img/sukriti-saroj.jpeg" alt="">
+                </div>
+                <div class="card-name">Sukriti Saroj</div>
+                <div class="card-icons">
+                    <a href="" class="ig"><img src="assets/img/instagram.svg" alt=""></a>
+                    <a href="" class="fb"><img src="assets/img/linkedin.svg" alt=""></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="blogs">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="b-card" style="background-image: url('assets/img/ba2.jpg');">
+                <div class="blog-card row">
+                    <div class="col-lg-4 p-0 blog-img">
+                        <div class="b-img" style="background-image: url('assets/img/blog.jpeg');"></div>
+                    </div>
+                    <div class="col-lg-8 offset-lg-4 b-content">
+                        <div class="blog-title">React V/S Angular</div>
+                        <div class="blog-author">~harsh gour</div>
+                        <div class="blog-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit xui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                        </div>
+                        <div class="read-more justify-content-lg-end">
+                            <a class="btn btn-main px-4" href="#" id="" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="b-card" style="background-image: url('assets/img/ba2.jpg');">
+                <div class="blog-card row">
+                    <div class="col-lg-4 p-0 blog-img">
+                        <div class="b-img" style="background-image: url('assets/img/blog.jpeg');"></div>
+                    </div>
+                    <div class="col-lg-8 offset-lg-4 b-content">
+                        <div class="blog-title">React V/S Angular</div>
+                        <div class="blog-author">~harsh gour</div>
+                        <div class="blog-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit xui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                        </div>
+                        <div class="read-more justify-content-lg-end">
+                            <a class="btn btn-main px-4" href="#" id="" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="b-card" style="background-image: url('assets/img/ba2.jpg');">
+                <div class="blog-card row">
+                    <div class="col-lg-4 p-0 blog-img">
+                        <div class="b-img" style="background-image: url('assets/img/blog.jpeg');"></div>
+                    </div>
+                    <div class="col-lg-8 offset-lg-4 b-content">
+                        <div class="blog-title">React V/S Angular</div>
+                        <div class="blog-author">~harsh gour</div>
+                        <div class="blog-content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                            voluptas sit xui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+                        </div>
+                        <div class="read-more justify-content-lg-end">
+                            <a class="btn btn-main px-4" href="#" id="" role="button">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true">
+          </span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+<div class="live-updates">
+    <div class="live-title">Live Updates</div>
+    <div class="container">
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide>
+                <div class="live-card"></div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="live-card-in"></div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="live-card"></div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="live-card-in"></div>
+            </ng-template>  
+            <ng-template carouselSlide>
+                <div class="live-card"></div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="live-card"></div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="live-card-in"></div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="live-card"></div>
+            </ng-template>
+            <ng-template carouselSlide>
+                <div class="live-card-in"></div>
+            </ng-template>
+        </owl-carousel-o>
+    </div>
+</div>
+
+<!-- modal -->
+<!-- Button trigger modal -->
+  <!-- Modal -->
+  <div class="modal fade grapido-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog h-100" style="max-width: 80vw!important;">
+      <div class="modal-content h-100">
+        <div class="modal-header">
+          <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body h-100">
+            <div class="container h-100">
+                <div class="row h-100">
+                    <div class="col-lg-5 col-12 d-flex align-items-center w-100" style="border-right: 1px solid black;">
+                        <img src="assets/img/grapido.png" alt="" class="w-100">
+                    </div>
+                    <div class="col-lg-7 col-12">
+                        <span class="grapido-title">Grapido</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
