@@ -122,6 +122,9 @@
     flex-direction: column;
     justify-content: space-around;
 }
+.project-title{
+    padding-bottom: 20px;
+}
 
 .project .project-title{
     font-size: 3rem;
@@ -348,11 +351,22 @@
     height: 300px;
     width: 250px;
     background-color: black;
+    
 }
 .live-card-in{
     height: 300px;
     width: 250px;
     background-color: blue;
+    
+}
+
+@media(max-width:500px){
+    .live-card{
+        margin: 60px;
+    }
+    .live-card-in{
+        margin: 60px;
+    }
 }
 
 /* Live-updates-end */

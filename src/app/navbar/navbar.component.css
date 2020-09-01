@@ -69,12 +69,12 @@
 }
 
 /* nav-ends */
-
+/*
 .side-nav{
     height: 100vh;
     background-color: white;
     width: 60vw;
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     z-index: 1040;
@@ -89,4 +89,35 @@
         right: 0;
     }
 }
-/* side-nav-ends */
+*/
+
+
+@media (max-width: 768px) {
+    #sidebar.collapse {
+      position: fixed;
+      z-index: 2000;
+      transition: all .3s ease;
+      top: 0;
+      bottom: 0;
+      right: -30%; /* -width of sidebar */
+      width: 0;
+      height: 100% !important;
+      display: block;
+    }
+    
+    #sidebar.collapsing {
+        transition: all .18s ease-in;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: -30%;  /* -width of sidebar */
+        width: 30%;  /* width of sidebar */
+        height: 100% !important;
+        display: block;
+    }
+    
+    #sidebar.collapse.show {
+        left: 0;
+        width: 30%;  /* width of sidebar */
+    }
+ }
