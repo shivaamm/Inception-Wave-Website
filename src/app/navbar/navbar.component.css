@@ -93,6 +93,12 @@
 
 
 @media (max-width: 768px) {
+    #sidebar{
+        background-color: black;
+    }
+
+
+
     #sidebar.collapse {
       position: fixed;
       z-index: 2000;
