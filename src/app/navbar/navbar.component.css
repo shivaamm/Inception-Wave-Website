@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 .my-nav{
     padding: 1rem;
 }
@@ -96,8 +100,6 @@
     #sidebar{
         background-color: black;
     }
-
-
 
     #sidebar.collapse {
       position: fixed;
