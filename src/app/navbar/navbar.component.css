@@ -13,6 +13,7 @@ html {
 .navbar-white{
     background-color: white;
     padding: 1rem;
+    box-shadow: 1px 1px 1px 1px #c6c6c6;
 }
 .fa-bars{
     color: #fff;

@@ -257,6 +257,44 @@ html {
 
 /* mentors-end */
 
+
+
+
+.mb
+  {
+    display: none;
+  }
+  
+  @media (max-width: 766px) {
+    .mb{
+      display: block;
+    }
+}
+    #overflowTest1 {
+      padding: 15px;
+      width: 100%;
+      height: 100px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+    }
+  
+    .button2 {background-color: #008CBA;}
+  
+    .button {
+      background-color: #008CBA;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+
+
+/* MAIN BLOGS */
 .blog-card{
     height: auto;
     width: 60%;
@@ -267,6 +305,22 @@ html {
     padding: 3vh;
     left: 50%;
     transform: translate(-50%, -50%);   
+}
+
+#overflowTest
+{
+    padding: 15px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-style: none;
+    background-color: white;
+}
+@media only screen and (max-width: 766px) 
+{
+    .blogs{
+        display: none;
+    }
 }
 
 .blogs .blogs-title{
@@ -337,6 +391,20 @@ html {
 
 /* blog-end */
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* blog-end */
+
 .live-updates{
     min-height: 70vh;
     padding: 10vh 0;
@@ -351,16 +419,14 @@ html {
 }
 
 .live-card{
-    height: 300px;
+    height: 440px;
     width: 250px;
     background-color: black;
-    
 }
 .live-card-in{
-    height: 300px;
+    height: 440px;
     width: 250px;
     background-color: blue;
-    
 }
 
 @media(max-width:500px){
