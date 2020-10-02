@@ -46,7 +46,7 @@ html {
     color: white;
 }
 .hero-icons a:hover{
-    color: #1187D1;
+    color: white;
     transform: scale(1.2);
 }
 
@@ -273,8 +273,8 @@ html {
     #overflowTest1 {
       padding: 15px;
       width: 100%;
-      height: 100px;
-      overflow: hidden;
+      height: 400px;
+      overflow: scroll;
       border: 1px solid #ccc;
     }
   
@@ -311,8 +311,8 @@ html {
 {
     padding: 15px;
     width: 100%;
-    height: 300px;
-    overflow: hidden;
+    height: 400px;
+    overflow: scroll;
     border-style: none;
     background-color: white;
 }
@@ -459,3 +459,23 @@ html {
 /* grapido-modal-ends */
 
 /* modals-end */
+
+
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

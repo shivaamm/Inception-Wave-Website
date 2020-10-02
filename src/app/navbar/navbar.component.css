@@ -99,7 +99,7 @@ html {
 
 @media (max-width: 768px) {
     #sidebar{
-        background-color: black;
+        background-color: white;
     }
 
     #sidebar.collapse {
@@ -129,4 +129,8 @@ html {
         left: 0;
         width: 30%;  /* width of sidebar */
     }
+ }
+ a
+ {
+     color: gray;
  }
