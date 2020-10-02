@@ -431,10 +431,10 @@ html {
 
 @media(max-width:500px){
     .live-card{
-        margin: 60px;
+        margin: 50px;
     }
     .live-card-in{
-        margin: 60px;
+        margin: 50px;
     }
 }
 
