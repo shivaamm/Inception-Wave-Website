@@ -431,10 +431,14 @@ html {
 
 @media(max-width:500px){
     .live-card{
-        margin: 50px;
+        /*margin: 50px;*/
+        margin-left: auto;
+        margin-right: auto;
     }
     .live-card-in{
-        margin: 50px;
+        /*margin: 50px;*/
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
