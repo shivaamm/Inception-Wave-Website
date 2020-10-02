@@ -483,3 +483,11 @@ html {
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+  @media screen and (max-width: 1000px)
+  {
+    .b-img
+      {
+          opacity: 20%;
+      }
+  }
