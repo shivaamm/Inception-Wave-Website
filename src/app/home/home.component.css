@@ -273,8 +273,8 @@ html {
     #overflowTest1 {
       padding: 15px;
       width: 100%;
-      height: 400px;
-      overflow: scroll;
+      height: 100px;
+      overflow: hidden;
       border: 1px solid #ccc;
     }
   
@@ -311,8 +311,8 @@ html {
 {
     padding: 15px;
     width: 100%;
-    height: 400px;
-    overflow: scroll;
+    height: 300px;
+    overflow: hidden;
     border-style: none;
     background-color: white;
 }
@@ -331,12 +331,12 @@ html {
 }
 
 .blogs .b-card{
-    height: 90vh;
+    height: 95vh;
     background-size: cover;
 }
 
 .blogs .blog-img{
-    height: 400px;
+    height: 350px;
     width: 350px;
     position: absolute;
     top: -50px;
@@ -405,7 +405,7 @@ html {
 
 /* blog-end */
 
-.live-updates{
+/*.live-updates{
     min-height: 70vh;
     padding: 10vh 0;
 }
@@ -432,13 +432,38 @@ html {
 @media(max-width:500px){
     .live-card{
         /*margin: 50px;*/
-        margin-left: auto;
+ /*       margin-left: auto;
         margin-right: auto;
     }
     .live-card-in{
         /*margin: 50px;*/
-        margin-left: auto;
+   /*     margin-left: auto;
         margin-right: auto;
+    }
+}
+*/
+
+.elfsight-app-d3a537ae-5415-4927-b7db-31e51ff98bd5
+{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    box-shadow: 2px 4px 87px -33px rgba(0,0,0,0.75);
+}
+@media screen and (max-width: 570px)
+{
+    .elfsight-app-d3a537ae-5415-4927-b7db-31e51ff98bd5
+    {
+        max-width: 350px;
+        max-height: 500px;
+    }
+}
+@media screen and (max-width: 350px)
+{
+    .elfsight-app-d3a537ae-5415-4927-b7db-31e51ff98bd5
+    {
+        max-width: 300px;
+        max-height: 400px;
     }
 }
 

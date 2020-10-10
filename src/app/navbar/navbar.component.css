@@ -99,7 +99,7 @@ html {
 
 @media (max-width: 768px) {
     #sidebar{
-        background-color: black;
+        background-color: white;
     }
 
     #sidebar.collapse {
@@ -132,10 +132,11 @@ html {
  }
  a
  {
-     color: lightgray;
+     color: gray;
  }
  a:hover
  {
-     color: gray;
-     transition: 1s ease;
+     color: black;
+     background-color: white;
+     transition: 0.5s ease;
  }
